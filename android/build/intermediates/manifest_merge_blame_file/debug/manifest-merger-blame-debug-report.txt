@@ -1,0 +1,44 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.reactlibrary"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:4:5-68
+11-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:4:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:5:5-74
+12-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:5:22-71
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:7:5-75
+13-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:7:22-72
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:8:5-80
+14-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:9:5-81
+15-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+16-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:5:5-74
+16-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:5:22-71
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:12:5-79
+17-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:13:5-81
+18-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:15:5-77
+19-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:15:22-74
+20    <uses-permission android:name="android.permission.NFC" />
+20-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:16:5-62
+20-->/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:16:22-59
+21
+22</manifest>

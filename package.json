@@ -1,0 +1,80 @@
+{
+  "_from": "rx-bluetooth-rfid-scanner",
+  "_id": "rx-bluetooth-rfid-scanner@1.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-setAApfWU/i/vg3hkMb/KC/paVI2LEjmCHRh2soVSmaksiexy0RUJ5SX/6j7Sad5rmKmzE70O1pdwIHrZkPfSA==",
+  "_location": "/rx-bluetooth-rfid-scanner",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "rx-bluetooth-rfid-scanner",
+    "name": "rx-bluetooth-rfid-scanner",
+    "escapedName": "rx-bluetooth-rfid-scanner",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rx-bluetooth-rfid-scanner/-/rx-bluetooth-rfid-scanner-1.0.8.tgz",
+  "_shasum": "c19dfd9106322a0b01ac3e43f573e0d6fa9bd212",
+  "_spec": "rx-bluetooth-rfid-scanner",
+  "_where": "/Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver",
+  "author": {
+    "name": "Paul Obunga",
+    "email": "paulobunga.one@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/paulobunga/rx-bluetooth-rfid-scanner/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Chainway R2 & R6 Bluetooth RFID UHF Barcode Scanner",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@types/jest": "^24.0.24",
+    "@types/react-native": "^0.62.0",
+    "@types/react-test-renderer": "16.9.2",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "react": "^16.9.0",
+    "react-native": "^0.61.5",
+    "react-test-renderer": "16.11.0",
+    "typescript": "^3.8.3"
+  },
+  "homepage": "https://github.com/paulobunga/rx-bluetooth-rfid-scanner#readme",
+  "jest": {
+    "preset": "react-native"
+  },
+  "keywords": [
+    "react-native",
+    "rfid",
+    "barcode",
+    "uhf"
+  ],
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "main": "index",
+  "name": "rx-bluetooth-rfid-scanner",
+  "nativePackage": true,
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulobunga/rx-bluetooth-rfid-scanner.git",
+    "baseUrl": "https://github.com/paulobunga/rx-bluetooth-rfid-scanner"
+  },
+  "scripts": {
+    "build": "tsc index.ts"
+  },
+  "title": "React Native Chainway R2 & R6 Bluetooth RFID Scanner Project",
+  "version": "1.0.8"
+}

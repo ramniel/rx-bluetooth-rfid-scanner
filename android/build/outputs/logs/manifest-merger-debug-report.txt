@@ -1,0 +1,73 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:1:1-17:12
+INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:1:1-17:12
+INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:1:1-17:12
+INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:1:1-17:12
+INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:1:1-17:12
+INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:1:1-17:12
+INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:1:1-17:12
+	package
+		ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:2:11-37
+		INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+		ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:1:1-17:12
+		INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+		ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:1:1-17:12
+		INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:4:5-68
+	android:name
+		ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:4:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:5:5-74
+	android:name
+		ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:5:22-71
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:7:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:15:5-77
+	android:name
+		ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:15:22-74
+uses-permission#android.permission.NFC
+ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:16:5-62
+	android:name
+		ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml:16:22-59
+uses-sdk
+INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+		ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+		ADDED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/sebastianbarcelona/Desarrollo/sensordata/Ecotecno-Driver/node_modules/rx-bluetooth-rfid-scanner/android/src/main/AndroidManifest.xml
