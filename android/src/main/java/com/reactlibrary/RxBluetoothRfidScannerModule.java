@@ -84,6 +84,7 @@ public class RxBluetoothRfidScannerModule extends ReactContextBaseJavaModule imp
     public static final String TAG_COUNT = "tagCount";
     public static final String TAG_RSSI = "tagRssi";
 
+    private boolean singleRead = false;
     private boolean loopFlag = false;
     private boolean isExit = false;
     boolean isRunning = false;
@@ -136,12 +137,17 @@ public class RxBluetoothRfidScannerModule extends ReactContextBaseJavaModule imp
             public void onKeyDown(int keycode) {
                 Log.d("TAG", "  keycode =" + keycode + "   ,isExit=" + isExit);
                 if (!isExit && uhf.getConnectStatus() == ConnectionStatus.CONNECTED) {
-                    if(loopFlag) {
+                    if(singleRead) {
+                        getTag();
+                    } else if(loopFlag) {
                         stopInventory();
                     } else {
                         startThread();
                     }
                 }
+                WritableMap map = Arguments.createMap();
+                map.putString("keycode", String.valueOf(keycode));
+                sendEvent("BLE_EVENT", Utils.convertParams("TRIGGER_PULLED", map));
             }
         });
 
@@ -335,6 +341,11 @@ public class RxBluetoothRfidScannerModule extends ReactContextBaseJavaModule imp
         } catch (Exception ex) {
             promise.reject("ERROR", ex);
         }
+    }
+
+    @ReactMethod
+    public void setSingleRead(boolean singleRead) {
+        this.singleRead = singleRead;
     }
 
     @ReactMethod
@@ -729,12 +740,12 @@ public class RxBluetoothRfidScannerModule extends ReactContextBaseJavaModule imp
             if (index == -1) {
                 tagList.add(map);
                 tempTags.add(uhftagInfo.getEPC());
-                sendEvent("BLE_EVENT", Utils.convertParams("UHF_TAG", remap));
             } else {
                 int tagCount = Integer.parseInt(tagList.get(index).get(TAG_COUNT), 10) + 1;
                 map.put(TAG_COUNT, String.valueOf(tagCount));
                 tagList.set(index, map);
             }
+            sendEvent("BLE_EVENT", Utils.convertParams("UHF_TAG", remap));
             ++total;
         }
     }
@@ -781,6 +792,11 @@ public class RxBluetoothRfidScannerModule extends ReactContextBaseJavaModule imp
                 ++total;
             }
         }
+    }
+
+    private void getTag() {
+        UHFTAGInfo tag = uhf.inventorySingleTag();
+        handler.sendMessage(handler.obtainMessage(FLAG_TAG, tag));
     }
 
     public int checkIsExist(String epc) {

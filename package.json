@@ -76,5 +76,5 @@
     "build": "tsc index.ts"
   },
   "title": "React Native Chainway R2 & R6 Bluetooth RFID Scanner Project",
-  "version": "1.0.8"
+  "version": "1.0.9"
 }

@@ -22,6 +22,7 @@ var stopInventoryScan = function () { return RxBluetoothRfidScanner.stopInventor
 var setEPCMode = function (mode) { return RxBluetoothRfidScanner.setEPCMode(mode); };
 var setTIDMode = function (mode) { return RxBluetoothRfidScanner.setTIDMode(mode); };
 var setUserMode = function (mode) { return RxBluetoothRfidScanner.setUserMode(mode); };
+var setSingleRead = function (singleRead) { return RxBluetoothRfidScanner.setSingleRead(singleRead); };
 var bluetoothListener = function (listener) { return eventEmitter.addListener('BLE_EVENT', listener); };
 var setFilters = function (data, ptr, len) {
     return RxBluetoothRfidScanner.setFilters(data, ptr, len);
@@ -39,6 +40,7 @@ exports["default"] = {
     connectToDevice: connectToDevice,
     stopScanForDevices: stopScanForDevices,
     readSingleTag: readSingleTag,
+    setSingleRead: setSingleRead,
     setFilters: setFilters,
     setEPCMode: setEPCMode,
     setTIDMode: setTIDMode,

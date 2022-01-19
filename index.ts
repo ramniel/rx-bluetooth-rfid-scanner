@@ -18,6 +18,7 @@ type scanForDevices = () => Promise<any>;
 type stopScanForDevices = () => Promise<any>;
 type connectToDevice = (address: string) => Promise<any>;
 type readSingleTag = () => Promise<any>;
+type setSingleRead = (singleRead: boolean) => void;
 type setFilters = (data: string, ptr: string, len: string) => Promise<any>;
 type setEPCMode = (mode: string) => Promise<any>;
 type setTIDMode = (mode: string) => Promise<any>;
@@ -62,6 +63,8 @@ const setTIDMode: setTIDMode = (mode) => RxBluetoothRfidScanner.setTIDMode(mode)
 
 const setUserMode: setUserMode = (mode) => RxBluetoothRfidScanner.setUserMode(mode);
 
+const setSingleRead: setSingleRead = (singleRead) => RxBluetoothRfidScanner.setSingleRead(singleRead);
+
 const bluetoothListener: AddListener = (listener) => eventEmitter.addListener('BLE_EVENT', listener);
 
 const setFilters: setFilters = (data: string, ptr: string, len: string) =>
@@ -81,6 +84,7 @@ export default {
   connectToDevice,
   stopScanForDevices,
   readSingleTag,
+  setSingleRead,
   setFilters,
   setEPCMode,
   setTIDMode,
