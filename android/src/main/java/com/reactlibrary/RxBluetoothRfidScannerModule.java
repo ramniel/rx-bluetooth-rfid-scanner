@@ -590,7 +590,6 @@ public class RxBluetoothRfidScannerModule extends ReactContextBaseJavaModule imp
                 case FLAG_TAG:
                     UHFTAGInfo info = (UHFTAGInfo) msg.obj;
                     addEPCToList(info);
-                    Utils.playSound(1);
                     break;
                 case FLAG_UPDATE_TIME:
                     break;
