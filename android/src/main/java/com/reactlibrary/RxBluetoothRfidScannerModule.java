@@ -709,7 +709,7 @@ public class RxBluetoothRfidScannerModule extends ReactContextBaseJavaModule imp
     }
 
     private void addEPCToList(UHFTAGInfo uhftagInfo) {
-        if (!TextUtils.isEmpty(uhftagInfo.getEPC())) {
+        if (uhftagInfo != null && !TextUtils.isEmpty(uhftagInfo.getEPC())) {
             int index = checkIsExist(uhftagInfo.getEPC());
 
             StringBuilder stringBuilder = new StringBuilder();
